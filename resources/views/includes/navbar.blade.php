@@ -2,7 +2,7 @@
 <nav class="w-full flex items-center justify-between">
     <img src="{{ asset("images/DELS Main Logo.png")}}" class="w-20"></img>
 
-    <ul class="md:flex items-center gap-6 hidden">
+    <ul class="md:flex items-center gap-6 hidden list">
         <li>
             <a href="/" class="text-[#828282] hover:text-[#0454CB] hover:font-semibold" >Home</a>
         </li>

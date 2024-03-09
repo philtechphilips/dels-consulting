@@ -366,6 +366,43 @@
 
         </div>
     </section>
+
+    <section class="md:px-24 px-5">
+        <div class="md:w-1/2">
+            <h1 class="text-4xl font-bold">Contact Us</h1>
+            <p class="text-[#4F4F4F] text-lg mt-2 md:pr-28">You can contact us through the form below and communication channels</p>
+
+            <div class="mt-10 shadow-md rounded-3xl flex flex-col md:flex-row bg-white md:gap-20 gap-5 p-10">
+                <div class="flex flex-col gap-4">
+                    <h1 class="font-bold text-2xl text-[#0454CB]">Address</h1>
+                    <p class="text-[#4F4F4F] text-lg">Lagos. Nigeria</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h1 class="font-bold text-2xl text-[#0454CB]">Phone</h1>
+                    <p class="text-[#4F4F4F] text-lg">+234-906-006-9132</p>
+                </div>
+            </div>
+
+            
+            <form class="mt-10 shadow-md rounded-3xl gap-20 md:p-10 p-5">
+                <h1 class="font-bold text-xl">Leave a Message Now!</h1>
+
+                <div class="flex flex-col md:flex-row gap-4 mt-4">
+                    <input type="text" placeholder="First Name" class="rounded-xl shadow bg-white  border-gray-500 px-4 py-2 outline-none">
+                    <input type="text" placeholder="Last Name"  class="rounded-xl shadow bg-white  border-gray-500 px-4 py-2 outline-none">
+                </div>
+
+                <div class="flex gap-4  flex-col md:flex-row mt-4">
+                    <input type="text" placeholder="Phone" class="rounded-xl shadow bg-white  border-gray-500 px-4 py-2 outline-none">
+                    <input type="text" placeholder="Email"  class="rounded-xl shadow bg-white  border-gray-500 px-4 py-2 outline-none">
+                </div>
+
+                <div class="flex gap-4 mt-4">
+                    <textarea placeholder="First Name" class="rounded-xl w-full shadow bg-white  border-gray-500 px-4 py-2 outline-none"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
 @endsection
 
 
