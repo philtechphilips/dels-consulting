@@ -32,6 +32,38 @@
     
      {{-- Swiper JS --}}
 
+      {{-- Toggle Mobile Navigation  --}}
+      <script>
+        const toggleButton = document.querySelectorAll('.menuButton');
+        const menu = document.getElementById('menu');
+    
+        toggleButton.forEach(function(button) {
+        button.addEventListener('click', function() {
+            menu.classList.toggle('translate-x-[500px]'); 
+        })
+    });
+    </script>    
+    {{-- Toggle Mobile Navigation --}}
+
+
+      {{-- Active Page --}}
+      <script>
+        var currentPage = window.location.pathname;
+
+        document.querySelectorAll('.list li').forEach(function(li) {
+
+            var link = li.querySelector('a');
+            console.log(link)
+            if (link.getAttribute('href') === currentPage) {
+                li.querySelector('a').style.color = '#0454CB';
+            } else {
+                li.querySelector('a').style.color = '#828282';
+            }
+        });
+    </script>
+    {{-- Active Page --}}
+
+
      @yield("script")
 </body>
 </html>
