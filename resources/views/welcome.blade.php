@@ -81,7 +81,6 @@
         <div class="swiper-pagination"></div>
     </section>
 
-
     <section class="w-full py-28 flex md:flex-row flex-col relative">
         <div
             class="bg-[#CDDDF5] md:rounded-r-full px-5 md:pl-16 md:pr-28 py-28 md:w-[750px] flex flex-col md:justify-start md:items-start justify-center items-center">
@@ -114,6 +113,25 @@
         </div>
         <div class=" absolute w-[250px] bottom-40 z-0 -right-[104px] hidden md:flex">
             <img src="{{ asset('images/Vector.png') }}" class="z-0" width="20">
+        </div>
+    </section>
+
+    <section class="w-full md:pr-24 pr-5 md:py-14 pb-28 flex flex-col md:flex-row items-center gap-10">
+        <div class="md:w-1/2">
+            <img src="{{ asset("images/mobile-apps.png") }}">
+        </div>
+
+        <div class="flex flex-col items-center md:items-start gap-2 md:w-1/2 px-5">
+            <h1 class="md:text-4xl text-3xl font-bold text-center">Amazing & Beautiful apps!</h1>
+            <p class="md:text-lg font-medium text-[#4F4F4F] text-center">At <span class="text-[#0454CB]">DELS Consulting</span>, we have a professional team to help you grow your business. Want to know how? Click on the link below and learn more from us how we can help you!</p>
+            <a href=""
+            class="text-center bg-[#0454CB] rounded-full px-20 text-sm font-medium mt-4 py-4 w-fit text-white flex gap-1 items center">See
+            More <svg class="mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 13L7 7L1 1" stroke="#FCFCFC" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </a>
         </div>
     </section>
 
@@ -367,7 +385,7 @@
         </div>
     </section>
 
-    <section class="md:px-24 px-5">
+    <section class="md:px-24 px-5 md:pr-20 py-40" style="background-image: url('{{ asset('images/map.png') }}'); background-repeat: no-repeat; background-position: center; background-size: 700px;">
         <div class="md:w-1/2">
             <h1 class="text-4xl font-bold">Contact Us</h1>
             <p class="text-[#4F4F4F] text-lg mt-2 md:pr-28">You can contact us through the form below and communication channels</p>
@@ -384,23 +402,42 @@
             </div>
 
             
-            <form class="mt-10 shadow-md rounded-3xl gap-20 md:p-10 p-5">
+            <form class="mt-10  rounded-3xl gap-20 md:pr-5">
                 <h1 class="font-bold text-xl">Leave a Message Now!</h1>
 
                 <div class="flex flex-col md:flex-row gap-4 mt-4">
-                    <input type="text" placeholder="First Name" class="rounded-xl shadow bg-white  border-gray-500 px-4 py-2 outline-none">
-                    <input type="text" placeholder="Last Name"  class="rounded-xl shadow bg-white  border-gray-500 px-4 py-2 outline-none">
+                    <input type="text" placeholder="First Name" class="rounded-xl md:w-1/2 shadow bg-white  border-gray-500 px-4 py-2 outline-none">
+                    <input type="text" placeholder="Last Name"  class="rounded-xl md:w-1/2  shadow bg-white  border-gray-500 px-4 py-2 outline-none">
                 </div>
 
                 <div class="flex gap-4  flex-col md:flex-row mt-4">
-                    <input type="text" placeholder="Phone" class="rounded-xl shadow bg-white  border-gray-500 px-4 py-2 outline-none">
-                    <input type="text" placeholder="Email"  class="rounded-xl shadow bg-white  border-gray-500 px-4 py-2 outline-none">
+                    <input type="text" placeholder="Phone" class="rounded-xl md:w-1/2 shadow bg-white  border-gray-500 px-4 py-2 outline-none">
+                    <input type="text" placeholder="Email"  class="rounded-xl md:w-1/2  shadow bg-white  border-gray-500 px-4 py-2 outline-none">
                 </div>
 
                 <div class="flex gap-4 mt-4">
                     <textarea placeholder="First Name" class="rounded-xl w-full shadow bg-white  border-gray-500 px-4 py-2 outline-none"></textarea>
                 </div>
+
+                <button class="rounded-xl shadow bg-[#0454CB] text-white w-full mt-4 px-4 py-2 outline-none">Send</button>
             </form>
+        </div>
+    </section>
+
+    <section class="md:pl-24 py-28" style="background-image: url('{{ asset('images/circle4.png') }}'); background-repeat: no-repeat; background-position: center left; background-size: 700px;">
+        <div class="px-28 flex items-end flex-col mb-8">
+            <h1 class="font-bold text-4xl mt-2">What Our Client Say</h1>
+            <p class="w-96 text-base mt-2 text-[#474747]">In this section, a brief description of the blog content and what can be useful is written</p>
+        </div>
+        <div class="w-full h-screen flex items-center px-16 gap-10" style="background-image: url('{{ asset('images/quoted.png') }}'); background-repeat: no-repeat; background-position: center left; background-size: cover;">
+            <div class="flex gap-5 p-0 items-center w-1/2 ">
+                <img src="{{ asset("images/woman.png") }}">
+            </div>
+
+            <div class="flex flex-col gap-4 w-1/2">
+                <h1 class="font-bold text-xl">Iranian Health Company CEO </h1>
+                <p class="">Before they’d even arrived, all three of the features writers for T’s Travel issue immersed themselves in the place to which they were going with a number of books, television shows, songs and films. After all, the assignment — to return to ..</p>
+            </div>
         </div>
     </section>
 @endsection
