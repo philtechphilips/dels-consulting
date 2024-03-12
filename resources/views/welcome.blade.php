@@ -440,16 +440,50 @@
             </div>
         </div>
 
-        <div class="w-full md:hidden h-screen flex items-center md:px-16 md:gap-10">
+        <div class="w-full md:hidden md:h-screen flex items-center md:px-16 md:gap-10">
             <div class="hidden gap-5 p-0 items-center w-1/2 ">
                 <img src="{{ asset("images/woman.png") }}">
             </div>
 
-            <div class="flex flex-col gap-4 md:w-1/2 px-5 -mt-80 md:mt-0">
+            <div class="flex flex-col gap-4 md:w-1/2 px-5 mt-4 md:mt-0">
                 <h1 class="font-bold text-xl text-center md:text-left">Iranian Health Company CEO </h1>
                 <p class="text-center md:text-left">Before they’d even arrived, all three of the features writers for T’s Travel issue immersed themselves in the place to which they were going with a number of books, television shows, songs and films. After all, the assignment — to return to ..</p>
             </div>
         </div>
+    </section>
+
+    <section class="md:px-24 px-5">
+      <div class="md:w-[400px]">
+        <h1 class="font-bold text-4xl text-center md:text-left">FaQ</h1>
+        <p class="text-[#474747] mt-4 text-center md:text-left">In this section, a brief description of the blog content and what can be useful is written</p>
+      </div>
+
+        <div class="bg-white md:px-16 px-5  py-5 my-5 shadow-lg md:rounded-r-full md:rounded-bl-full">
+            <div class="flex justify-between items-start">
+                <h1 class="font-bold text-lg">What does a web development company do?</h1>
+                <i class="ri-arrow-up-s-line text-2xl cursor-pointer"></i>
+            </div>
+            <p class="text-[#474747] mt-3">The major scope of work for a web development company includes ideating, developing, maintaining, picking the right content management system, and designing websites. Web developers can also be responsible for crafting.</p>
+        </div>
+
+        <div class="bg-white md:px-16 px-5  py-5 my-5 shadow-lg md:rounded-r-full md:rounded-bl-full">
+            <div class="flex justify-between items-start">
+                <h1 class="font-bold text-lg">What does a web development company do?</h1>
+                <i class="ri-arrow-up-s-line text-2xl cursor-pointer"></i>
+            </div>
+            <p class="text-[#474747] mt-3">The major scope of work for a web development company includes ideating, developing, maintaining, picking the right content management system, and designing websites. Web developers can also be responsible for crafting.</p>
+        </div>
+
+
+        <div class="bg-white md:px-16 px-5  py-5 my-5 shadow-lg md:rounded-r-full md:rounded-bl-full">
+            <div class="flex justify-between items-start">
+                <h1 class="font-bold text-lg">What does a web development company do?</h1>
+                <i class="ri-arrow-up-s-line text-2xl cursor-pointer"></i>
+            </div>
+            <p class="text-[#474747] mt-3">The major scope of work for a web development company includes ideating, developing, maintaining, picking the right content management system, and designing websites. Web developers can also be responsible for crafting.</p>
+        </div>
+
+ 
     </section>
 @endsection
 
