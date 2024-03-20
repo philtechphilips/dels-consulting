@@ -512,7 +512,8 @@
         </div>
 
         <div class="flex flex-col z-[100]">
-            <div class="flex flex-col md:flex-row shadow-lg items-center my-4 md:mx-10 rounded-3xl mt-16 gap-8 z-[100] bg-white md:w-[880px]">
+            <div
+                class="flex flex-col md:flex-row shadow-lg items-center my-4 md:mx-10 rounded-3xl mt-16 gap-8 z-[100] bg-white md:w-[880px]">
                 <img src="{{ asset('images/blog-one.png') }}" class="w-full">
                 <div class="z-[100] px-5">
                     <h1 class="text-[#0454CB] font-bold text-lg">The Mindset of Successful Entrepreneurs</h1>
@@ -520,48 +521,54 @@
                     <p class="text-[#4F4F4F]">In today's competitive business landscape, achieving success as an
                         entrepreneur requires more than just a great idea or product. It requires the right mindset – a
                         combination of attitudes, beliefs, and behaviors that drive success and growth ...</p>
-                        <div class="flex gap-1 py-5 md:justify-end pr-10">
-                            <p class="text-[#0454CB] font-semibold">
-                                Read more
-                            </p>
-                            <img src="{{ asset("images/path.svg")}}"></img>
-                        </div>
+                    <div class="flex gap-1 py-5 md:justify-end pr-10">
+                        <p class="text-[#0454CB] font-semibold">
+                            Read more
+                        </p>
+                        <img src="{{ asset('images/path.svg') }}"></img>
+                    </div>
                 </div>
             </div>
-            
-            <div class="flex flex-col md:flex-row shadow-lg items-center my-4 md:mx-20 rounded-3xl mt-16 gap-8 z-[100] bg-white md:w-[880px]">
+
+            <div
+                class="flex flex-col md:flex-row shadow-lg items-center my-4 md:mx-20 rounded-3xl mt-16 gap-8 z-[100] bg-white md:w-[880px]">
                 <img src="{{ asset('images/full-shot-travel-concept-with-landmarks 1 (1).png') }}" class="w-full">
                 <div class="z-[100] px-5">
                     <h1 class="text-[#0454CB] font-bold text-lg">Technologies and Strategies of AI in Business</h1>
                     <h4 class="font-bold py-5">22 Mar 2024</h4>
                     <p class="text-[#4F4F4F]">
-                        In the modern business landscape, the integration of artificial intelligence (AI) has become increasingly prevalent, revolutionizing the way organizations operate and compete. From streamlining processes to enhancing customer experiences ...
+                        In the modern business landscape, the integration of artificial intelligence (AI) has become
+                        increasingly prevalent, revolutionizing the way organizations operate and compete. From streamlining
+                        processes to enhancing customer experiences ...
                     </p>
-                        <div class="flex py-5 gap-1 justify-end pr-10">
-                            <p class="text-[#0454CB] font-semibold">
-                                Read more
-                            </p>
-                            <img src="{{ asset("images/path.svg")}}"></img>
-                        </div>
+                    <div class="flex py-5 gap-1 justify-end pr-10">
+                        <p class="text-[#0454CB] font-semibold">
+                            Read more
+                        </p>
+                        <img src="{{ asset('images/path.svg') }}"></img>
+                    </div>
                 </div>
             </div>
 
-            <div class="flex flex-col md:flex-row shadow-lg items-center my-4 md:mx-10 rounded-3xl mt-16 gap-8 z-[100] bg-white md:w-[880px]">
+            <div
+                class="flex flex-col md:flex-row shadow-lg items-center my-4 md:mx-10 rounded-3xl mt-16 gap-8 z-[100] bg-white md:w-[880px]">
                 <img src="{{ asset('images/full-shot-travel-concept-with-landmarks 1.png') }}" class="w-full">
-                <div class="z-[100]">
+                <div class="z-[100] px-5">
                     <h1 class="text-[#0454CB] font-bold text-lg">
                         Building Brand Consistency Across All Touchpoints
                     </h1>
                     <h4 class="font-bold py-5">23 Mar 2024</h4>
                     <p class="text-[#4F4F4F]">
-                        Consistency is key when it comes to building a strong brand identity. From your website and social media profiles to your packaging and customer interactions, every touchpoint with your audience should reflect your brand's values, messaging, and visual identity ...
+                        Consistency is key when it comes to building a strong brand identity. From your website and social
+                        media profiles to your packaging and customer interactions, every touchpoint with your audience
+                        should reflect your brand's values, messaging, and visual identity ...
                     </p>
-                        <div class="flex gap-1 py-5 justify-end pr-10">
-                            <p class="text-[#0454CB] font-semibold">
-                                Read more
-                            </p>
-                            <img src="{{ asset("images/path.svg")}}"></img>
-                        </div>
+                    <div class="flex gap-1 py-5 justify-end pr-10">
+                        <p class="text-[#0454CB] font-semibold">
+                            Read more
+                        </p>
+                        <img src="{{ asset('images/path.svg') }}"></img>
+                    </div>
                 </div>
             </div>
         </div>
@@ -576,43 +583,53 @@
                 content and what can be useful is written</p>
         </div>
 
-        <div class="bg-white md:px-16 px-5  py-5 my-5 shadow-lg md:rounded-r-full md:rounded-bl-full">
-            <div class="flex justify-between items-start">
+        <div class="bg-white md:px-16 px-5  py-5 my-5 shadow-lg md:rounded-r-full md:rounded-bl-full accordion active">
+            <div class="flex justify-between items-start accordion-top">
                 <h1 class="font-bold text-lg">What does a web development company do?</h1>
                 <i class="ri-arrow-up-s-line text-2xl cursor-pointer"></i>
             </div>
-            <p class="text-[#474747] mt-3">The major scope of work for a web development company includes ideating,
-                developing, maintaining, picking the right content management system, and designing websites. Web developers
-                can also be responsible for crafting.</p>
-        </div>
-
-        <div class="bg-white md:px-16 px-5  py-5 my-5 shadow-lg md:rounded-r-full md:rounded-bl-full">
-            <div class="flex justify-between items-start">
-                <h1 class="font-bold text-lg">What does a web development company do?</h1>
-                <i class="ri-arrow-up-s-line text-2xl cursor-pointer"></i>
+            <div class="accordion-bottom">
+                <p class="text-[#474747] mt-3">
+                    The major scope of work for a web development company includes ideating,
+                    developing, maintaining, picking the right content management system, and designing websites. Web developers
+                    can also be responsible for crafting.
+                </p>
             </div>
-            <p class="text-[#474747] mt-3">The major scope of work for a web development company includes ideating,
-                developing, maintaining, picking the right content management system, and designing websites. Web developers
-                can also be responsible for crafting.</p>
         </div>
 
-
-        <div class="bg-white md:px-16 px-5  py-5 my-5 shadow-lg md:rounded-r-full md:rounded-bl-full">
-            <div class="flex justify-between items-start">
+        <div class="bg-white md:px-16 px-5  py-5 my-5 shadow-lg md:rounded-r-full md:rounded-bl-full accordion">
+            <div class="flex justify-between items-start accordion-top">
                 <h1 class="font-bold text-lg">What does a web development company do?</h1>
-                <i class="ri-arrow-up-s-line text-2xl cursor-pointer"></i>
+                <i class="ri-arrow-down-s-line text-2xl cursor-pointer"></i>
             </div>
-            <p class="text-[#474747] mt-3">The major scope of work for a web development company includes ideating,
-                developing, maintaining, picking the right content management system, and designing websites. Web developers
-                can also be responsible for crafting.</p>
+            <div class="accordion-bottom">
+                <p class="text-[#474747] mt-3">
+                    The major scope of work for a web development company includes ideating,
+                    developing, maintaining, picking the right content management system, and designing websites. Web developers
+                    can also be responsible for crafting.
+                </p>
+            </div>
         </div>
 
-
+        <div class="bg-white md:px-16 px-5  py-5 my-5 shadow-lg md:rounded-r-full md:rounded-bl-full accordion">
+            <div class="flex justify-between items-start accordion-top">
+                <h1 class="font-bold text-lg">What does a web development company do?</h1>
+                <i class="ri-arrow-down-s-line text-2xl cursor-pointer"></i>
+            </div>
+            <div class="accordion-bottom">
+                <p class="text-[#474747] mt-3">
+                    The major scope of work for a web development company includes ideating,
+                    developing, maintaining, picking the right content management system, and designing websites. Web developers
+                    can also be responsible for crafting.
+                </p>
+            </div>
+        </div>
     </section>
 @endsection
 
 
 @section('script')
+    {{-- Hero Swiper --}}
     <script>
         const swiper = new Swiper('.swiper', {
             direction: 'horizontal',
@@ -636,4 +653,24 @@
 
         });
     </script>
+    {{-- Hero Swiper --}}
+
+
+    <!-- Accordion Script -->
+    <script>
+        const accordions = document.getElementsByClassName("accordion");
+
+        for (let i = 0; i < accordions.length; i++) {
+            accordions[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                const icon = this.querySelector(".accordion-top i");
+                if (this.classList.contains("active")) {
+                    icon.classList.replace("ri-arrow-down-s-line", "ri-arrow-up-s-line");
+                } else {
+                    icon.classList.replace("ri-arrow-up-s-line", "ri-arrow-down-s-line");
+                }
+            });
+        }
+    </script>
+    <!-- Accordion script Ends Here -->
 @endsection
