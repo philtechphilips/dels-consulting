@@ -118,20 +118,22 @@
 
     <section class="w-full md:pr-24 pr-5 md:py-14 pb-28 flex flex-col md:flex-row items-center gap-10">
         <div class="md:w-1/2">
-            <img src="{{ asset("images/mobile-apps.png") }}">
+            <img src="{{ asset('images/mobile-apps.png') }}">
         </div>
 
         <div class="flex flex-col items-center md:items-start gap-2 md:w-1/2 px-5">
             <h1 class="md:text-4xl text-3xl font-bold text-center">Amazing & Beautiful apps!</h1>
-            <p class="md:text-lg font-medium text-[#4F4F4F] text-center">At <span class="text-[#0454CB]">DELS Consulting</span>, we have a professional team to help you grow your business. Want to know how? Click on the link below and learn more from us how we can help you!</p>
+            <p class="md:text-lg font-medium text-[#4F4F4F] text-center">At <span class="text-[#0454CB]">DELS
+                    Consulting</span>, we have a professional team to help you grow your business. Want to know how? Click
+                on the link below and learn more from us how we can help you!</p>
             <a href=""
-            class="text-center bg-[#0454CB] rounded-full px-20 text-sm font-medium mt-4 py-4 w-fit text-white flex gap-1 items center">See
-            More <svg class="mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 13L7 7L1 1" stroke="#FCFCFC" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" />
-            </svg>
-        </a>
+                class="text-center bg-[#0454CB] rounded-full px-20 text-sm font-medium mt-4 py-4 w-fit text-white flex gap-1 items center">See
+                More <svg class="mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 13L7 7L1 1" stroke="#FCFCFC" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </a>
         </div>
     </section>
 
@@ -157,7 +159,8 @@
                 <img class="z-[100]" src="{{ asset('images/Frame 2132.png') }}">
             </div>
 
-            <img class="absolute hidden md:flex right-[300px] top-[110px] z-0" src="{{ asset('images/Frame 1824.png') }}">
+            <img class="absolute hidden md:flex right-[300px] top-[110px] z-0"
+                src="{{ asset('images/Frame 1824.png') }}">
         </div>
     </section>
 
@@ -233,7 +236,8 @@
     <section class="md:px-24 px-5 py-20">
         <div class="md:w-[400px] w-full flex flex-col gap-4">
             <h1 class="font-bold text-4xl text-center md:text-left">Why Choose Us?</h1>
-            <p class="text-[#4D4F51] md:text-lg text-sm text-center md:text-left">We have unique features, just to name a few why you should choose us</p>
+            <p class="text-[#4D4F51] md:text-lg text-sm text-center md:text-left">We have unique features, just to name a
+                few why you should choose us</p>
         </div>
 
         <div class="flex py-10 flex-wrap gap-2 justify-center">
@@ -252,7 +256,7 @@
                 </svg>
                 <div class="flex flex-col gap-2">
                     <h4 class="text-[#1D1D1E] font-bold text-lg">100% satisfaction guarantee</h4>
-                    <p class="text-sm">In this section, a brief description of this feature is written</p>
+                    <p class="text-sm">We ensure that you receive exceptional service and results every time.</p>
                 </div>
             </div>
 
@@ -272,7 +276,8 @@
 
                 <div class="flex flex-col gap-2">
                     <h4 class="text-[#1D1D1E] font-bold text-lg">24/7 support</h4>
-                    <p class="text-sm">In this section, a brief description of this feature is written</p>
+                    <p class="text-sm">We are always here to assist you, day or night, ensuring your needs are met promptly
+                        and efficiently.</p>
                 </div>
             </div>
 
@@ -301,7 +306,8 @@
 
                 <div class="flex flex-col gap-2">
                     <h4 class="text-[#1D1D1E] font-bold text-lg">Focus on details</h4>
-                    <p class="text-sm">In this section, a brief description of this feature is written</p>
+                    <p class="text-sm">We analyze every aspect of your project to ensure perfection, delivering exceptional
+                        results.</p>
                 </div>
             </div>
 
@@ -325,7 +331,8 @@
 
                 <div class="flex flex-col gap-2">
                     <h4 class="text-[#1D1D1E] font-bold text-lg">Safety & Security</h4>
-                    <p class="text-sm">In this section, a brief description of this feature is written</p>
+                    <p class="text-sm">We employ strict security measures to safeguard your data and ensure a safe
+                        experience</p>
                 </div>
             </div>
 
@@ -354,7 +361,7 @@
 
                 <div class="flex flex-col gap-2">
                     <h4 class="text-[#1D1D1E] font-bold text-lg">Dedicated team</h4>
-                    <p class="text-sm">In this section, a brief description of this feature is written</p>
+                    <p class="text-sm">We provide personalized attention and expert guidance every step of the way.</p>
                 </div>
             </div>
 
@@ -378,41 +385,69 @@
 
                 <div class="flex flex-col gap-2">
                     <h4 class="text-[#1D1D1E] font-bold text-lg">97% customers satisfaction</h4>
-                    <p class="text-sm">In this section, a brief description of this feature is written</p>
+                    <p class="text-sm">Our commitment to excellence ensures that our clients' needs are met and
+                        expectations exceeded.</p>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <section class="md:px-24 px-5 md:pr-20 md:py-40" style="background-image: url('{{ asset('images/map.png') }}'); background-repeat: no-repeat; background-position: center; background-size: 700px;">
+    <section class="md:px-24 px-5 md:pr-20 md:pb-28"
+        style="background-image: url('{{ asset('images/Group 11.png') }}'); background-repeat: no-repeat; background-position: center; background-size: 700px;">
         <div class="md:w-1/2">
             <h1 class="text-4xl font-bold">Contact Us</h1>
-            <p class="text-[#4F4F4F] text-lg mt-2 md:pr-28">You can contact us through the form below and communication channels</p>
+            <p class="text-[#4F4F4F] text-lg mt-2 md:pr-28">You can contact us through the form below and communication
+                channels</p>
 
-            <div class="mt-10 shadow-md rounded-3xl flex flex-col md:flex-row bg-white md:gap-20 gap-5 p-10">
+            <div class="mt-10 shadow-md rounded-3xl flex flex-wrap flex-col md:flex-row bg-white md:gap-5 gap-5 p-10">
                 <div class="flex flex-col gap-4">
-                    <h1 class="font-bold text-2xl text-[#0454CB]">Address</h1>
-                    <p class="text-[#4F4F4F] text-lg">Lagos. Nigeria</p>
+                    <div class="flex items-center gap-2">
+                        <img src="{{ asset('images/w3c - 2022-05-13T134754.239 2.svg') }}" class="w-5">
+                        <h1 class="font-bold text-xl text-[#0454CB]">Cincinnati Address</h1>
+                    </div>
+                    <p class="text-[#4F4F4F] text-lg">370 Probasco street</p>
                 </div>
                 <div class="flex flex-col gap-4">
-                    <h1 class="font-bold text-2xl text-[#0454CB]">Phone</h1>
+                    <div class="flex items-center gap-2">
+                        <img src="{{ asset('images/Group (3).svg') }}" class="w-5">
+                        <h1 class="font-bold text-xl text-[#0454CB]">Phone</h1>
+                    </div>
                     <p class="text-[#4F4F4F] text-lg">+234-906-006-9132</p>
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <div class="flex items-center gap-2">
+                        <img src="{{ asset('images/w3c - 2022-05-13T134754.239 2.svg') }}" class="w-5">
+                        <h1 class="font-bold text-xl text-[#0454CB]">Lagos Address</h1>
+                    </div>
+                    <p class="text-[#4F4F4F] text-lg">Lekki - Epe Expy, Eti-Osa, Sangotedo.</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div class="flex items-center gap-2">
+                        <img src="{{ asset('images/Subtract.svg') }}" class="w-5">
+                        <h1 class="font-bold text-xl text-[#0454CB]">Mail</h1>
+                    </div>
+                    <p class="text-[#4F4F4F] text-lg">info@delsconsulting.com</p>
                 </div>
             </div>
 
-            
+
             <form class="mt-10  rounded-3xl gap-20 md:pr-5">
                 <h1 class="font-bold text-xl">Leave a Message Now!</h1>
 
                 <div class="flex flex-col md:flex-row gap-4 mt-4">
-                    <input type="text" placeholder="First Name" class="rounded-xl md:w-1/2 shadow bg-white  border-gray-500 px-4 py-2 outline-none">
-                    <input type="text" placeholder="Last Name"  class="rounded-xl md:w-1/2  shadow bg-white  border-gray-500 px-4 py-2 outline-none">
+                    <input type="text" placeholder="First Name"
+                        class="rounded-xl md:w-1/2 shadow bg-white  border-gray-500 px-4 py-2 outline-none">
+                    <input type="text" placeholder="Last Name"
+                        class="rounded-xl md:w-1/2  shadow bg-white  border-gray-500 px-4 py-2 outline-none">
                 </div>
 
                 <div class="flex gap-4  flex-col md:flex-row mt-4">
-                    <input type="text" placeholder="Phone" class="rounded-xl md:w-1/2 shadow bg-white  border-gray-500 px-4 py-2 outline-none">
-                    <input type="text" placeholder="Email"  class="rounded-xl md:w-1/2  shadow bg-white  border-gray-500 px-4 py-2 outline-none">
+                    <input type="text" placeholder="Phone"
+                        class="rounded-xl md:w-1/2 shadow bg-white  border-gray-500 px-4 py-2 outline-none">
+                    <input type="text" placeholder="Email"
+                        class="rounded-xl md:w-1/2  shadow bg-white  border-gray-500 px-4 py-2 outline-none">
                 </div>
 
                 <div class="flex gap-4 mt-4">
@@ -424,46 +459,121 @@
         </div>
     </section>
 
-    <section class="md:pl-24 pl-0 px-5 md:px-0 py-28" style="background-image: url('{{ asset('images/circle4.png') }}'); background-repeat: no-repeat; background-position: center left; background-size: 700px;">
+    <section class="md:pl-24 pl-0 px-5 md:px-0 py-28"
+        style="background-image: url('{{ asset('images/circle4.png') }}'); background-repeat: no-repeat; background-position: center left; background-size: 700px;">
         <div class="md:px-28 px-5 flex items-end flex-col md:mb-8">
             <h1 class="font-bold text-4xl mt-2 text-center md:text-left">What Our Client Say</h1>
-            <p class="md:w-96 text-base mt-2 text-[#474747] text-center md:text-left">In this section, a brief description of the blog content and what can be useful is written</p>
+            <p class="md:w-96 text-base mt-2 text-[#474747] text-center md:text-left">In this section, a brief description
+                of the blog content and what can be useful is written</p>
         </div>
-        <div class="w-full hidden h-screen md:flex items-center md:px-16 gap-10" style="background-image: url('{{ asset('images/quoted.png') }}'); background-repeat: no-repeat; background-position: center left; background-size: cover;">
+        <div class="w-full hidden h-screen md:flex items-center md:px-16 gap-10"
+            style="background-image: url('{{ asset('images/quoted.png') }}'); background-repeat: no-repeat; background-position: center left; background-size: cover;">
             <div class="flex gap-5 p-0 items-center w-1/2 ">
-                <img src="{{ asset("images/woman.png") }}">
+                <img src="{{ asset('images/woman.png') }}">
             </div>
 
             <div class="flex flex-col gap-4 w-1/2">
                 <h1 class="font-bold text-xl">Iranian Health Company CEO </h1>
-                <p class="">Before they’d even arrived, all three of the features writers for T’s Travel issue immersed themselves in the place to which they were going with a number of books, television shows, songs and films. After all, the assignment — to return to ..</p>
+                <p class="">Before they’d even arrived, all three of the features writers for T’s Travel issue
+                    immersed themselves in the place to which they were going with a number of books, television shows,
+                    songs and films. After all, the assignment — to return to ..</p>
             </div>
         </div>
 
         <div class="w-full md:hidden md:h-screen flex items-center md:px-16 md:gap-10">
             <div class="hidden gap-5 p-0 items-center w-1/2 ">
-                <img src="{{ asset("images/woman.png") }}">
+                <img src="{{ asset('images/woman.png') }}">
             </div>
 
             <div class="flex flex-col gap-4 md:w-1/2 px-5 mt-4 md:mt-0">
                 <h1 class="font-bold text-xl text-center md:text-left">Iranian Health Company CEO </h1>
-                <p class="text-center md:text-left">Before they’d even arrived, all three of the features writers for T’s Travel issue immersed themselves in the place to which they were going with a number of books, television shows, songs and films. After all, the assignment — to return to ..</p>
+                <p class="text-center md:text-left">Before they’d even arrived, all three of the features writers for T’s
+                    Travel issue immersed themselves in the place to which they were going with a number of books,
+                    television shows, songs and films. After all, the assignment — to return to ..</p>
             </div>
         </div>
     </section>
 
-    <section class="md:px-24 px-5">
-      <div class="md:w-[400px]">
-        <h1 class="font-bold text-4xl text-center md:text-left">FaQ</h1>
-        <p class="text-[#474747] mt-4 text-center md:text-left">In this section, a brief description of the blog content and what can be useful is written</p>
-      </div>
-
-        <div class="bg-white md:px-16 px-5  py-5 my-5 shadow-lg md:rounded-r-full md:rounded-bl-full">
-            <div class="flex justify-between items-start">
-                <h1 class="font-bold text-lg">What does a web development company do?</h1>
-                <i class="ri-arrow-up-s-line text-2xl cursor-pointer"></i>
+    <section class="md:px-24 px-5 min:h-screen pb-28 z-0"
+        style="background-image: url('{{ asset('images/blog-bg.png') }}'); background-repeat: no-repeat; background-position: center center; background-size: center;">
+        <div class="flex justify-between items-start flex-col md:flex-row">
+            <div class="md:w-[400px]">
+                <h1 class="font-bold text-4xl text-center md:text-left">Our Blog</h1>
+                <p class="text-[#474747] mt-4 text-center md:text-left">In this section, a brief description of the blog
+                    content and what can be useful is written</p>
             </div>
-            <p class="text-[#474747] mt-3">The major scope of work for a web development company includes ideating, developing, maintaining, picking the right content management system, and designing websites. Web developers can also be responsible for crafting.</p>
+
+            <div class="bg-white rounded-full px-7 py-3 gap-4 flex items-center z-[100]">
+                <h1 class="text-[#0454CB] font-bold bg-[#CDDDF5] rounded-full px-4 py-1">All</h1>
+                <h1 class="text-[#BDBDBD]">Popular</h1>
+                <h1 class="text-[#BDBDBD]">Trending</h1>
+                <h1 class="text-[#BDBDBD]">Most Viewed</h1>
+            </div>
+        </div>
+
+        <div class="flex flex-col z-[100]">
+            <div class="flex flex-col md:flex-row shadow-lg items-center my-4 md:mx-10 rounded-3xl mt-16 gap-8 z-[100] bg-white md:w-[880px]">
+                <img src="{{ asset('images/blog-one.png') }}" class="w-full">
+                <div class="z-[100] px-5">
+                    <h1 class="text-[#0454CB] font-bold text-lg">The Mindset of Successful Entrepreneurs</h1>
+                    <h4 class="font-bold py-5">22 Mar 2024</h4>
+                    <p class="text-[#4F4F4F]">In today's competitive business landscape, achieving success as an
+                        entrepreneur requires more than just a great idea or product. It requires the right mindset – a
+                        combination of attitudes, beliefs, and behaviors that drive success and growth ...</p>
+                        <div class="flex gap-1 py-5 md:justify-end pr-10">
+                            <p class="text-[#0454CB] font-semibold">
+                                Read more
+                            </p>
+                            <img src="{{ asset("images/path.svg")}}"></img>
+                        </div>
+                </div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row shadow-lg items-center my-4 md:mx-20 rounded-3xl mt-16 gap-8 z-[100] bg-white md:w-[880px]">
+                <img src="{{ asset('images/full-shot-travel-concept-with-landmarks 1 (1).png') }}" class="w-full">
+                <div class="z-[100] px-5">
+                    <h1 class="text-[#0454CB] font-bold text-lg">Technologies and Strategies of AI in Business</h1>
+                    <h4 class="font-bold py-5">22 Mar 2024</h4>
+                    <p class="text-[#4F4F4F]">
+                        In the modern business landscape, the integration of artificial intelligence (AI) has become increasingly prevalent, revolutionizing the way organizations operate and compete. From streamlining processes to enhancing customer experiences ...
+                    </p>
+                        <div class="flex py-5 gap-1 justify-end pr-10">
+                            <p class="text-[#0454CB] font-semibold">
+                                Read more
+                            </p>
+                            <img src="{{ asset("images/path.svg")}}"></img>
+                        </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row shadow-lg items-center my-4 md:mx-10 rounded-3xl mt-16 gap-8 z-[100] bg-white md:w-[880px]">
+                <img src="{{ asset('images/full-shot-travel-concept-with-landmarks 1.png') }}" class="w-full">
+                <div class="z-[100]">
+                    <h1 class="text-[#0454CB] font-bold text-lg">
+                        Building Brand Consistency Across All Touchpoints
+                    </h1>
+                    <h4 class="font-bold py-5">23 Mar 2024</h4>
+                    <p class="text-[#4F4F4F]">
+                        Consistency is key when it comes to building a strong brand identity. From your website and social media profiles to your packaging and customer interactions, every touchpoint with your audience should reflect your brand's values, messaging, and visual identity ...
+                    </p>
+                        <div class="flex gap-1 py-5 justify-end pr-10">
+                            <p class="text-[#0454CB] font-semibold">
+                                Read more
+                            </p>
+                            <img src="{{ asset("images/path.svg")}}"></img>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="md:px-24 px-5 pb-20">
+        <div class="md:w-[400px]">
+            <h1 class="font-bold text-4xl text-center md:text-left">FaQ</h1>
+            <p class="text-[#474747] mt-4 text-center md:text-left">In this section, a brief description of the blog
+                content and what can be useful is written</p>
         </div>
 
         <div class="bg-white md:px-16 px-5  py-5 my-5 shadow-lg md:rounded-r-full md:rounded-bl-full">
@@ -471,7 +581,19 @@
                 <h1 class="font-bold text-lg">What does a web development company do?</h1>
                 <i class="ri-arrow-up-s-line text-2xl cursor-pointer"></i>
             </div>
-            <p class="text-[#474747] mt-3">The major scope of work for a web development company includes ideating, developing, maintaining, picking the right content management system, and designing websites. Web developers can also be responsible for crafting.</p>
+            <p class="text-[#474747] mt-3">The major scope of work for a web development company includes ideating,
+                developing, maintaining, picking the right content management system, and designing websites. Web developers
+                can also be responsible for crafting.</p>
+        </div>
+
+        <div class="bg-white md:px-16 px-5  py-5 my-5 shadow-lg md:rounded-r-full md:rounded-bl-full">
+            <div class="flex justify-between items-start">
+                <h1 class="font-bold text-lg">What does a web development company do?</h1>
+                <i class="ri-arrow-up-s-line text-2xl cursor-pointer"></i>
+            </div>
+            <p class="text-[#474747] mt-3">The major scope of work for a web development company includes ideating,
+                developing, maintaining, picking the right content management system, and designing websites. Web developers
+                can also be responsible for crafting.</p>
         </div>
 
 
@@ -480,10 +602,12 @@
                 <h1 class="font-bold text-lg">What does a web development company do?</h1>
                 <i class="ri-arrow-up-s-line text-2xl cursor-pointer"></i>
             </div>
-            <p class="text-[#474747] mt-3">The major scope of work for a web development company includes ideating, developing, maintaining, picking the right content management system, and designing websites. Web developers can also be responsible for crafting.</p>
+            <p class="text-[#474747] mt-3">The major scope of work for a web development company includes ideating,
+                developing, maintaining, picking the right content management system, and designing websites. Web developers
+                can also be responsible for crafting.</p>
         </div>
 
- 
+
     </section>
 @endsection
 
