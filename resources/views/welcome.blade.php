@@ -35,16 +35,24 @@
             pagination: {
                 el: '.swiper-pagination',
             },
-
-
-            navigation: {
-                nextEl: '.swiper-pagination',
-                prevEl: '.swiper-pagination',
-            },
-
         });
     </script>
     {{-- Hero Swiper --}}
+
+
+    <script>
+        const swipers = new Swiper('.swiper-2', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay: {
+                delay: 3000,
+            },
+            effect: 'fade',
+            fadeEffect: {
+                crossFade: true
+            },
+        });
+    </script>
 
 
     <!-- Accordion Script -->

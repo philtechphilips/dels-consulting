@@ -9,7 +9,7 @@
                 Consulting</span>, we have a professional team to help you grow your business. Want to know how? Click
             on the link below and learn more from us how we can help you!</p>
         <a href=""
-            class="text-center bg-[#0454CB] rounded-full px-20 text-sm font-medium mt-4 py-4 w-fit text-white flex gap-1 items center">See
+            class="text-center bg-[#0454CB] rounded-lg px-10 text-sm font-medium mt-4 py-3 w-fit text-white flex gap-1 items center">See
             More <svg class="mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 13L7 7L1 1" stroke="#FCFCFC" stroke-width="1.5" stroke-linecap="round"
@@ -29,7 +29,7 @@
                 and eye-catching, we design your website and application with a very professional team that will nail
                 the user! Want to know how? click :))</p>
             <a href=""
-                class="text-center bg-[#0454CB] rounded-full px-20 text-sm font-medium mt-4 py-4 w-fit text-white flex gap-1 items center">Read
+                class="bg-[#0454CB] rounded-lg px-10 text-sm font-medium mt-4 py-3  text-white flex gap-1">Learn
                 More <svg class="mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 13L7 7L1 1" stroke="#FCFCFC" stroke-width="1.5" stroke-linecap="round"
@@ -41,8 +41,7 @@
             <img class="z-[100]" src="{{ asset('images/Frame 2132.png') }}">
         </div>
 
-        <img class="absolute hidden md:flex right-[300px] top-[110px] z-0"
-            src="{{ asset('images/Frame 1824.png') }}">
+        <img class="absolute hidden md:flex right-[300px] top-[110px] z-0" src="{{ asset('images/Frame 1824.png') }}">
     </div>
 </section>
 
@@ -57,7 +56,7 @@
             workflow.Custom mobile application development by our expert mobile app developers. From design to
             development and ongoing support. Custom built from scratch or code-takeover projects .</p>
         <a href=""
-            class="text-center bg-[#0454CB] rounded-full px-20 text-sm font-medium mt-4 py-4 w-fit text-white flex gap-1 items center">Read
+            class="text-center bg-[#0454CB] rounded-lg px-10 text-sm font-medium mt-4 py-3 w-fit text-white flex gap-1 items center">Learn
             More <svg class="mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 13L7 7L1 1" stroke="#FCFCFC" stroke-width="1.5" stroke-linecap="round"
@@ -76,7 +75,7 @@
                 Front-end & design, backend, database, and server scale designed to fit your custom workflow.
             </p>
             <a href=""
-                class="text-center bg-[#0454CB] rounded-full px-20 text-sm font-medium mt-4 py-4 text-white flex gap-1 items center">Read
+                class="text-center bg-[#0454CB] rounded-lg px-10 text-sm font-medium mt-4 py-3 text-white flex gap-1 items center">Learn
                 More <svg class="mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 13L7 7L1 1" stroke="#FCFCFC" stroke-width="1.5" stroke-linecap="round"
@@ -100,7 +99,7 @@
                 Front-end & design, backend, database, and server scale designed to fit your custom workflow.
             </p>
             <a href=""
-                class="text-center bg-[#0454CB] rounded-full px-20 text-sm font-medium mt-4 py-4 w-fit text-white flex gap-1 items center">Read
+                class="text-center bg-[#0454CB] rounded-lg px-10 text-sm font-medium mt-4 py-3 w-fit text-white flex gap-1 items center">Learn
                 More <svg class="mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 13L7 7L1 1" stroke="#FCFCFC" stroke-width="1.5" stroke-linecap="round"
