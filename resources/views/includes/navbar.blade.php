@@ -28,7 +28,7 @@
         </li>
     </ul>
 
-    <a href="" class="bg-[#0454CB] py-3 px-8 text-white rounded-lg font-bold hidden md:flex">Get Started</a>
+    <a href="/contact-us" class="bg-[#0454CB] py-3 px-8 text-white rounded-lg font-bold hidden md:flex">Contact Us</a>
     <i class="ri-menu-2-line flex md:hidden text-3xl menuButton"></i>
 </nav>
 
@@ -72,7 +72,9 @@
         </li>
 
         <li class="flex gap-2 items-center bg-[#0454CB] rounded-lg px-6 py-3">
-                <p class="text-[#ffffff] font-medium md:text-xl">Get Started</p>
+            <a href="/contact-us">
+                <p class="text-[#ffffff] font-medium md:text-xl">Contact Us</p>
+            </a>
         </li>
     </ul>
 

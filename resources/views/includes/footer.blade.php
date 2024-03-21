@@ -31,17 +31,34 @@
         <div class="flex flex-col gap-3 px-1">
             <h1 class="text-lg font-bold text-[#0454CB]">Social Media</h1>
             <div class="flex gap-4">
-                <image src="{{ asset('images/Instagram.svg') }}">
-                <image src="{{ asset('images/Facebook.svg') }}">
-                <image src="{{ asset('images/LinkedIn.svg') }}">
-                <image src="{{ asset('images/Youtube.svg') }}">
+                <a href="https://instagram.com/delsconsulting">
+                    <image src="{{ asset('images/Instagram.svg') }}">
+                </a>
+                <a href="https://www.facebook.com/delsconsulting">
+                    <image src="{{ asset('images/Facebook.svg') }}">
+                </a>
+                <a href="https://www.linkedin.com/company/dels-consulting/">
+                    <image src="{{ asset('images/LinkedIn.svg') }}">
+                </a>
+                <a href="https://www.youtube.com/@delsonsulting">
+                    <image src="{{ asset('images/Youtube.svg') }}">
+                </a>
             </div>
 
             <div class="flex gap-4">
-                <image src="{{ asset('images/X.svg') }}">
-                <image src="{{ asset('images/Pinterest.svg') }}">
-                <image src="{{ asset('images/Thread.svg') }}">
-                <image src="{{ asset('images/Tiktok.svg') }}">
+                <a href="https://twitter.com/delsconsulting">
+                    <image src="{{ asset('images/X.svg') }}">
+                </a>
+                <a href="https://pin.it/61j448u">
+                    <image src="{{ asset('images/Pinterest.svg') }}">
+                </a>
+                <a href="https://www.threads.net/@delsconsulting">
+                    <image src="{{ asset('images/Thread.svg') }}">
+                </a>
+                <a href="http://tiktok.com/@delsconsulting">
+                    <image src="{{ asset('images/Tiktok.svg') }}">
+                </a>
+
             </div>
         </div>
 
