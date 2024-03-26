@@ -53,17 +53,21 @@
             fadeEffect: {
                 crossFade: true
             },
+            navigation: {
+                nextEl: '.tes-control-right',
+                prevEl: '.tes-control-left',
+            },
         });
     </script>
 
 
-<script>
-    const swipers1 = new Swiper('.swiper-3', {
-        direction: 'horizontal',
-        spaceBetween: 20,
-        loop: true,
-    });
-</script>
+    <script>
+        const swipers1 = new Swiper('.swiper-3', {
+            direction: 'horizontal',
+            spaceBetween: 20,
+            loop: true,
+        });
+    </script>
 
 
     <!-- Accordion Script -->

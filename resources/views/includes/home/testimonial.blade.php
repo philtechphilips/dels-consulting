@@ -6,11 +6,11 @@
             satisfied clients have to say about their experiences working with us.</p>
     </div>
     <div class="w-full">
-        <div class="w-full hidden h-screen md:flex items-center md:px-16 swiper-2 md:pl-24 pl-0"
+        <div class="w-full hidden h-screen md:flex items-center md:px-16 swiper-2 md:pl-24 pl-0 relative"
             style="background-image: url('{{ asset('images/quoted.png') }}'); background-repeat: no-repeat; background-position: center left; background-size: cover;">
             <div class="swiper-wrapper">
                 <div class="w-full md:flex items-center gap-10 swiper-slide">
-                    <div>
+                    <div class="pr-20">
                         <img src="{{ asset('images/tes 1.png') }}">
                     </div>
 
@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="w-full md:flex items-center gap-10 swiper-slide">
-                    <div>
+                    <div class="pr-20">
                         <img src="{{ asset('images/tes 2.png') }}">
                     </div>
 
@@ -46,7 +46,7 @@
                 </div>
 
                 <div class="w-full md:flex items-center gap-10 swiper-slide">
-                    <div>
+                    <div class="pr-20">
                         <img src="{{ asset('images/tes 3.png') }}">
                     </div>
 
@@ -62,12 +62,15 @@
                     </div>
                 </div>
             </div>
+<div class="tes-control-left z-[10000]  cursor-pointer absolute top-[250px] left-[570px] bg-[#0454CB] h-10 flex items-center justify-center w-10  rounded-full">
+    <i class="ri-arrow-left-s-line z-[10000] text-xl text-white"></i>
+</div>
+<div class="tes-control-right  z-[10000]cursor-pointer absolute top-[250px] right-[50px]  bg-[#0454CB] h-10 flex items-center justify-center w-10 rounded-full">
+    <i class="ri-arrow-right-s-line z-[10000] text-xl text-white"></i>
+</div>
+
         </div>
     </div>
-
-
-
-
 
 
 
@@ -78,7 +81,7 @@
                     <div class="flex items-center gap-4 mb-3">
                         <img src="{{ asset('images/tes 1.png') }}" class="rounded-full w-10 h-10">
                         <div>
-                            <h1 class="font-bold">Adnan Siblini</h1>
+                            <h1 class="font-bold text-xl">Adnan Siblini</h1>
                             <h2 class="">ASHR RUN ‘N’ DRIVE CEO</h2>
                         </div>
                     </div>
@@ -93,7 +96,7 @@
                     <div class="flex items-center gap-4 mb-3">
                         <img src="{{ asset('images/tes 2.png') }}" class="rounded-full w-10 h-10">
                         <div>
-                            <h1 class="font-bold">Yetty Williams</h1>
+                            <h1 class="font-bold text-xl">Yetty Williams</h1>
                             <h2 class="">LagosMums FOUNDER</h2>
                         </div>
                     </div>
@@ -108,7 +111,7 @@
                     <div class="flex items-center gap-4 mb-3">
                         <img src="{{ asset('images/tes 3.png') }}" class="rounded-full w-10 h-10">
                         <div>
-                            <h1 class="font-bold">Rami Burjas</h1>
+                            <h1 class="font-bold text-xl">Rami Burjas</h1>
                             <h2 class="">High Taste Ceramics MD</h2>
                         </div>
                     </div>
