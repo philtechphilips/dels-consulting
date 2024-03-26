@@ -37,6 +37,8 @@
             },
         });
     </script>
+
+
     {{-- Hero Swiper --}}
 
 
@@ -53,6 +55,15 @@
             },
         });
     </script>
+
+
+<script>
+    const swipers1 = new Swiper('.swiper-3', {
+        direction: 'horizontal',
+        spaceBetween: 20,
+        loop: true,
+    });
+</script>
 
 
     <!-- Accordion Script -->

@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="{{ asset('styles/global.css') }}">
     <link rel="icon" type="image/png" href="{{ asset('assets/images/Maryson Logo.png') }}" sizes="any">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="{{ asset("css/mod-swiper.css") }}">
+    <link rel="stylesheet" href="{{ asset("css/mod-swiper-3.css") }}">
     <style>
         @import"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap";
 

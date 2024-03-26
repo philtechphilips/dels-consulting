@@ -118,7 +118,9 @@
     <nav id="menu"
         class="w-full p-5 md:hidden bg-gray-100 h-screen fixed top-0 left-0 translate-x-[500px] duration-[300ms] ease-in transform z-[1000]">
         <div class="flex items-center justify-between mb-20">
+          <a href="/">
             <img src="{{ asset('images/DELS Main Logo.png') }}" class="w-20"></img>
+        </a>
 
             <div class="w-10 h-10 menuButton flex items-center justify-center">
                 <i class="ri-close-line text-3xl"></i>

@@ -15,7 +15,7 @@
                     </div>
 
                     <div class="flex flex-col gap-4 w-1/2">
-                        <h1 class="font-bold text-2xl">Adnan Siblini</h1>
+                        <h1 class="font-bold text-2xl text-[#0454CB]">Adnan Siblini</h1>
                         <img src="{{ asset('images/rating.png') }}" width="100">
                         <h1 class="font-bold text-lg">Iranian Health Company CEO </h1>
                         <p class="">Your strategic approach to digital marketing and innovative solutions have
@@ -33,11 +33,14 @@
                     </div>
 
                     <div class="flex flex-col gap-4 w-1/2">
-                        <h1 class="font-bold text-2xl">Yetty Williams</h1>
+                        <h1 class="font-bold text-2xl text-[#0454CB]">Yetty Williams</h1>
                         <img src="{{ asset('images/rating.png') }}" width="100">
                         <h1 class="font-bold text-lg">LagosMums FOUNDER</h1>
                         <p class="">
-                            You consistently deliver excellence through your collaborative approach and clear communication. Your dedication to understanding our needs and working closely with your team has been instrumental in achieving our goals. I value your professionalism and commitment to our success.
+                            You consistently deliver excellence through your collaborative approach and clear
+                            communication. Your dedication to understanding our needs and working closely with your team
+                            has been instrumental in achieving our goals. I value your professionalism and commitment to
+                            our success.
                         </p>
                     </div>
                 </div>
@@ -48,29 +51,76 @@
                     </div>
 
                     <div class="flex flex-col gap-4 w-1/2">
-                        <h1 class="font-bold text-2xl">Rami Burjas</h1>
+                        <h1 class="font-bold text-2xl text-[#0454CB]">Rami Burjas</h1>
                         <img src="{{ asset('images/rating.png') }}" width="100">
                         <h1 class="font-bold text-lg">High Taste Ceramics MD</h1>
                         <p class="">
-                            Your strategic approach, coupled with precise targeting and compelling creatives, has significantly boosted our bottom line. I'm grateful for your expertise and commitment to delivering exceptional results.
+                            Your strategic approach, coupled with precise targeting and compelling creatives, has
+                            significantly boosted our bottom line. I'm grateful for your expertise and commitment to
+                            delivering exceptional results.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    {{-- <div class="w-full md:hidden md:h-screen flex items-center md:px-16 md:gap-10">
-        <div class="hidden gap-5 p-0 items-center w-1/2 ">
-            <img src="{{ asset('images/woman.png') }}">
-        </div>
 
-        <div class="flex flex-col gap-4 md:w-1/2 px-5 mt-4 md:mt-0">
-            <h1 class="font-bold text-xl text-center md:text-left">Iranian Health Company CEO </h1>
-            <p class="text-center md:text-left">Before they’d even arrived, all three of the features writers for T’s
-                Travel issue immersed themselves in the place to which they were going with a number of books,
-                television shows, songs and films. After all, the assignment — to return to ..</p>
+
+
+
+
+
+
+    <div class="w-full md:hidden">
+        <div class="swiper-3 px-1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg-white shadow-lg px-5 py-5 mt-10">
+                    <div class="flex items-center gap-4 mb-3">
+                        <img src="{{ asset('images/tes 1.png') }}" class="rounded-full w-10 h-10">
+                        <div>
+                            <h1 class="font-bold">Adnan Siblini</h1>
+                            <h2 class="">ASHR RUN ‘N’ DRIVE CEO</h2>
+                        </div>
+                    </div>
+                    <p class="text-center md:text-left">
+                        Your strategic approach to digital marketing and innovative solutions have helped my company
+                        reach new heights in the competitive automotive industry. With your expertise, I've seen a
+                        significant increase in online engagement and lead generation.
+                    </p>
+                </div>
+
+                <div class="swiper-slide bg-white shadow-lg px-5 py-5 mt-10">
+                    <div class="flex items-center gap-4 mb-3">
+                        <img src="{{ asset('images/tes 2.png') }}" class="rounded-full w-10 h-10">
+                        <div>
+                            <h1 class="font-bold">Yetty Williams</h1>
+                            <h2 class="">LagosMums FOUNDER</h2>
+                        </div>
+                    </div>
+                    <p class="text-center md:text-left">You consistently deliver excellence through your collaborative
+                        approach and clear communication. Your dedication to understanding our needs and working closely
+                        with your team has been instrumental in achieving our goals. I value your professionalism and
+                        commitment to our success.</p>
+                </div>
+
+
+                <div class="swiper-slide bg-white shadow-lg px-5 py-5 mt-10">
+                    <div class="flex items-center gap-4 mb-3">
+                        <img src="{{ asset('images/tes 3.png') }}" class="rounded-full w-10 h-10">
+                        <div>
+                            <h1 class="font-bold">Rami Burjas</h1>
+                            <h2 class="">High Taste Ceramics MD</h2>
+                        </div>
+                    </div>
+                    <p class="text-center md:text-left">
+                        Your strategic approach, coupled with precise targeting and compelling creatives, has
+                        significantly boosted our bottom line. I'm grateful for your expertise and commitment to
+                        delivering exceptional results.
+                    </p>
+                </div>
+
+            </div>
+
         </div>
-    </div> --}}
+    </div>
 </section>
-
-
