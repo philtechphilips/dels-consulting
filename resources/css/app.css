@@ -18,6 +18,14 @@ body{
     padding: 0px 0px;
 }
 
+.service-hidden{
+    display: none !important;
+}
+
+.hidden-active{
+    display: none !important;
+    background: transparent !important;
+}
 
 @keyframes fade {
     from {
