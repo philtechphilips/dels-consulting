@@ -90,29 +90,30 @@
             </div>
         </form>
 
-        <form id="request-proposal-form"
+        <form id="request-proposal-form" action="/send-proposal" method="POST"
             class="bg-white shadow-xl w-full md:w-[700px] py-5 md:px-5 my-10 rounded-xl hidden-active">
+            @csrf
             <div class="flex flex-col md:flex-row w-full gap-6 py-2 px-5">
                 <input class="md:w-1/2 border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow"
-                    type="text" placeholder="First Name" required>
+                    type="text" placeholder="First Name" name="firstname" required>
                 <input class="md:w-1/2 border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow"
-                    type="text" placeholder="Last Name" required>
+                    type="text" placeholder="Last Name" name="lastname" required>
             </div>
 
             <div class="flex flex-col md:flex-row w-full gap-6 py-2 px-5">
                 <input class="md:w-1/2 border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow"
-                    type="phone" placeholder="Phone" required>
+                    type="phone" placeholder="Phone" name="phone" required>
                 <input class="md:w-1/2 border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow"
-                    type="email" placeholder="Email" required>
+                    type="email" placeholder="Email" name="email" required>
             </div>
 
             <div class="flex flex-col md:flex-row w-full gap-6 py-2 px-5">
                 <input class="md:w-full border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow"
-                    type="text" placeholder="Company Name" required>
+                    type="text" placeholder="Company Name" name="company" required>
             </div>
 
             <div class="flex flex-col md:flex-row w-full gap-6 py-2 px-5">
-                <select name="" id=""
+                <select name="service" id=""
                     class="md:w-full border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow">
                     <option value="" selected disabled>What Digital Solutions are you interested in?</option>
                     <option value="Digital Marketing">Digital Marketing</option>
@@ -129,7 +130,7 @@
 
 
             <div class="flex flex-col md:flex-row w-full gap-6 py-2 px-5">
-                <select name="" id=""
+                <select name="budget" id=""
                     class="md:w-full border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow">
                     <option value="" selected disabled>What is your Budget for this initiative?</option>
                     <option value="Digital Marketing">$800 - $5,000</option>
@@ -143,7 +144,7 @@
             <div class="flex w-full gap-6 py-2 px-5">
                 <input type="text" placeholder="How long do you expect our engagement to last?"
                     class="w-full border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow" required
-                    name="" id="" cols="30" rows="10"></input>
+                    name="duration" id="" cols="30" rows="10"></input>
             </div>
 
 
@@ -151,13 +152,13 @@
                 <textarea
                     placeholder="Briefly tell us about your biggest challenges at this moment, and what gaps you see us filling in your marketing."
                     class="w-full border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow" required
-                    name="" id="" cols="30" rows="10"></textarea>
+                    name="challenge" id="" cols="30" rows="10"></textarea>
             </div>
 
             <div class="flex w-full gap-6 py-2 px-5">
                 <textarea placeholder="What tools are you currently utilizing with your sales/marketing efforts?"
                     class="w-full border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow" required
-                    name="" id="" cols="30" rows="10"></textarea>
+                    name="tools" id="" cols="30" rows="10"></textarea>
             </div>
 
             <div class="flex w-full gap-6 py-2 px-5">
@@ -167,33 +168,34 @@
             </div>
         </form>
 
-        <form id="partner-form"
+        <form id="partner-form" action="/send-parnership-mail" method="POST"
             class="bg-white shadow-xl w-full md:w-[700px] py-5 md:px-5 my-10 rounded-xl hidden-active">
+            @csrf
             <div class="flex flex-col md:flex-row w-full gap-6 py-2 px-5">
                 <input class="md:w-1/2 border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow"
-                    type="text" placeholder="First Name" required>
+                    type="text" placeholder="First Name" name="firstname" required>
                 <input class="md:w-1/2 border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow"
-                    type="text" placeholder="Last Name" required>
+                    type="text" placeholder="Last Name" name="lastname" required>
             </div>
 
             <div class="flex flex-col md:flex-row w-full gap-6 py-2 px-5">
                 <input class="md:w-1/2 border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow"
-                    type="phone" placeholder="Phone" required>
+                    type="phone" placeholder="Phone" name="phone" required>
                 <input class="md:w-1/2 border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow"
-                    type="email" placeholder="Email" required>
+                    type="email" placeholder="Email" name="email" required>
             </div>
 
             <div class="flex flex-col md:flex-row w-full gap-6 py-2 px-5">
                 <input class="md:w-full border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow"
-                    type="text" placeholder="Agency or Company Name" required>
+                    type="text" name="company" placeholder="Agency or Company Name" required>
             </div>
 
             <div class="flex flex-col md:flex-row w-full gap-6 py-2 px-5">
-                <select name="" id=""
+                <select name="budget" id=""
                     class="md:w-full border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow">
                     <option value="" selected disabled>What is your Budget for this initiative?</option>
-                    <option value="Digital Marketing">$800 - $5,000</option>
-                    <option value="Website Design & Development">$5,000 - $20,000</option>
+                    <option value="$800 - $5,000">$800 - $5,000</option>
+                    <option value="$5,000 - $20,000">$5,000 - $20,000</option>
                     <option value="$20,000 - $50,000">$20,000 - $50,000</option>
                     <option value="$50,000 - $70,000">$50,000 - $70,000</option>
                     <option value="$70,000+">$70,000+</option>
@@ -201,7 +203,7 @@
             </div>
 
             <div class="flex w-full gap-6 py-2 px-5">
-                <textarea placeholder="What are your current challenges that you need help with as an Agency or Company?"
+                <textarea name="challenge" placeholder="What are your current challenges that you need help with as an Agency or Company?"
                     class="w-full border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow" required
                     name="" id="" cols="30" rows="10"></textarea>
             </div>

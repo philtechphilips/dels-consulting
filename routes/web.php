@@ -24,3 +24,5 @@ Route::get('/contact-us', function () {
 
 
 Route::post('/contact', [SendMail::class, 'SendContactMail']);
+Route::post('/send-proposal', [SendMail::class, 'SendProposalMail']);
+Route::post('/send-parnership-mail', [SendMail::class, 'SendPartnershipMail']);
