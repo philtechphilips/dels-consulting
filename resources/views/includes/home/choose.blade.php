@@ -57,7 +57,7 @@
 
             <div class="flex flex-col gap-2">
                 <h4 class="text-[#1D1D1E] font-bold text-lg">Solution over services</h4>
-                <p class="text-sm">In this section, a brief description of this feature is written</p>
+                <p class="text-sm">We focus on delivering solutions that address your needs, rather than offering generic services.</p>
             </div>
         </div>
 

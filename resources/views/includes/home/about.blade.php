@@ -10,7 +10,7 @@
             class="text-center bg-[#0454CB] rounded-lg px-12 text-sm font-medium mt-4 py-3 w-fit text-white flex items center">Learn
             More <i class="ri-arrow-right-s-line mt-[1px]"></i></a>
         <div class="absolute hidden md:flex z-0 top-[70px]">
-            <img src="{{ asset('images/dash.png') }}">
+            <img src="{{ asset('images/welcome-bg.png') }}" class="w-20">
         </div>
     </div>
 

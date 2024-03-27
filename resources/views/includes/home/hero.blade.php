@@ -55,7 +55,7 @@
             <div class="flex flex-col gap-3 items-center md:items-start md:w-2/3 w-full">
                 <h4 class="font-bold text-[#0454CB] text-sm md:text-left  text-center z-[10000]">Social Media Management</h4>
                 <h1
-                    class="font-bold md:text-[36px] text-2xl  md:text-left text-center leading-[40px] md:leading-[70px] z-[10000]">
+                    class="font-bold md:text-[36px] text-2xl  md:text-left text-center leading-[40px] md:leading-[50px] z-[10000]">
                     Maximize your online presence with our expert <span class="text-[#0454CB]"> Social Media Management,</span> helping you engage, and grow your audience.
                 </h1>
                 <p class="md:text-lg text-[#4F4F4F] md:text-left text-center mb-4">

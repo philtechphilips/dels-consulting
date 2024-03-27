@@ -17,7 +17,7 @@
                     <div class="flex flex-col gap-4 w-1/2">
                         <h1 class="font-bold text-2xl text-[#0454CB]">Adnan Siblini</h1>
                         <img src="{{ asset('images/rating.png') }}" width="100">
-                        <h1 class="font-bold text-lg">Iranian Health Company CEO </h1>
+                        <h1 class="font-bold text-lg">ASHR RUN ‘N’ DRIVE CEO</h1>
                         <p class="">Your strategic approach to digital marketing and innovative solutions have
                             helped my
                             company reach new heights in the competitive automotive industry. With your expertise, I've
