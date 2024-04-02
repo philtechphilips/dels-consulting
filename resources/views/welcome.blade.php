@@ -27,6 +27,8 @@
             loop: true,
             autoplay: {
                 delay: 5000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
             },
             effect: 'fade',
             fadeEffect: {
@@ -47,7 +49,7 @@
             direction: 'horizontal',
             loop: true,
             autoplay: {
-                delay: 3000,
+                delay: 10000,
             },
             effect: 'fade',
             fadeEffect: {

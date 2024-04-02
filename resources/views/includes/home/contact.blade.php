@@ -5,20 +5,14 @@
         <p class="text-[#4F4F4F] text-lg mt-2 md:pr-28">You can contact us through the form below and communication
             channels</p>
 
-        <div class="mt-10 shadow-md rounded-3xl flex flex-wrap flex-col md:flex-row bg-white md:gap-5 gap-5 p-10">
+        <div class="mt-10 shadow-md rounded-3xl flex flex-wrap justify-between flex-col md:flex-row bg-white md:gap-5 gap-5 p-10">
+           <div class="flex flex-col gap-6">
             <div class="flex flex-col gap-4">
                 <div class="flex items-center gap-2">
                     <img src="{{ asset('images/w3c - 2022-05-13T134754.239 2.svg') }}" class="w-5">
                     <h1 class="font-bold text-xl text-[#0454CB]">Cincinnati Address</h1>
                 </div>
                 <p class="text-[#4F4F4F] text-lg">370 Probasco street</p>
-            </div>
-            <div class="flex flex-col gap-4">
-                <div class="flex items-center gap-2">
-                    <img src="{{ asset('images/Group (3).svg') }}" class="w-5">
-                    <h1 class="font-bold text-xl text-[#0454CB]">Phone</h1>
-                </div>
-                <p class="text-[#4F4F4F] text-lg">+234-906-006-9132</p>
             </div>
 
             <div class="flex flex-col gap-4">
@@ -28,6 +22,18 @@
                 </div>
                 <p class="text-[#4F4F4F] text-lg">Lekki - Epe Expy, Eti-Osa, Sangotedo.</p>
             </div>
+           </div>
+
+           <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-4">
+                <div class="flex items-center gap-2">
+                    <img src="{{ asset('images/Group (3).svg') }}" class="w-5">
+                    <h1 class="font-bold text-xl text-[#0454CB]">Phone</h1>
+                </div>
+                <p class="text-[#4F4F4F] text-lg">+234-906-006-9132</p>
+            </div>
+
+
             <div class="flex flex-col gap-4">
                 <div class="flex items-center gap-2">
                     <img src="{{ asset('images/Subtract.svg') }}" class="w-5">
@@ -35,6 +41,7 @@
                 </div>
                 <p class="text-[#4F4F4F] text-lg">info@delsconsulting.com</p>
             </div>
+        </div>
         </div>
 
 

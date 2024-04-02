@@ -41,3 +41,22 @@ body{
     padding: 10px 0px;
     animation: fade 0.4s;
 }
+
+
+.mac-bg
+{
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: 1400px !important;
+}
+
+
+@media (max-width: 1280px) {
+    .mac-bg
+    {
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        background-size: 1000px !important;
+    }
+
+}
