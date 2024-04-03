@@ -71,22 +71,4 @@
         });
     </script>
 
-
-    <!-- Accordion Script -->
-    <script>
-        const accordions = document.getElementsByClassName("accordion");
-
-        for (let i = 0; i < accordions.length; i++) {
-            accordions[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                const icon = this.querySelector(".accordion-top i");
-                if (this.classList.contains("active")) {
-                    icon.classList.replace("ri-arrow-down-s-line", "ri-arrow-up-s-line");
-                } else {
-                    icon.classList.replace("ri-arrow-up-s-line", "ri-arrow-down-s-line");
-                }
-            });
-        }
-    </script>
-    <!-- Accordion script Ends Here -->
 @endsection

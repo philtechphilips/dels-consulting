@@ -22,6 +22,10 @@ Route::get('/contact-us', function () {
     return view('contact-us');
 });
 
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+
 
 Route::post('/contact', [SendMail::class, 'SendContactMail']);
 Route::post('/send-proposal', [SendMail::class, 'SendProposalMail']);
