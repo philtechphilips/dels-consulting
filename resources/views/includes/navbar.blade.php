@@ -10,7 +10,7 @@
             </li>
 
             <li>
-                <a class="text-[#828282] hover:text-[#0454CB] hover:font-semibold" href="">About Us</a>
+                <a class="text-[#828282] hover:text-[#0454CB] hover:font-semibold" href="/about-us">About Us</a>
             </li>
 
             <li class="flex items-center gap-2">
@@ -134,11 +134,11 @@
             </li>
 
             <li>
-                <a href="/about-us" class="uppercase font-medium text-xl text-[#434343] leading-6 py-2">Services</a>
+                <a href="/services" class="uppercase font-medium text-xl text-[#434343] leading-6 py-2">Services</a>
             </li>
 
             <li>
-                <a href="/services" class="uppercase font-medium text-xl text-[#434343] leading-6 py-2">About Us</a>
+                <a href="/about-us" class="uppercase font-medium text-xl text-[#434343] leading-6 py-2">About Us</a>
 
             </li>
 

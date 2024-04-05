@@ -15,7 +15,11 @@
 
         <div class="flex flex-col gap-3 px-1">
             <h1 class="text-lg font-bold text-[#0454CB]">Company</h1>
-            <h1 class="font-semibold">About Us</h1>
+            <h1 class="font-semibold">
+                <a href="/about-us">
+                    About Us
+                </a>
+            </h1>
             <h1 class="font-semibold">Case Studies</h1>
             <h1 class="font-semibold">Career</h1>
             <h1 class="font-semibold">Blog</h1>

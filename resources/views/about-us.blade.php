@@ -110,7 +110,8 @@
 
                 <div class="mt-24">
                     <h1 class="font-bold text-3xl">Expansion of Service Offerings</h1>
-                    <p class="mt-3">Introduction of new services such as UI/UX Design, web design & development, and mobile app development, broadening our portfolio to meet diverse client needs.</p>
+                    <p class="mt-3">Introduction of new services such as UI/UX Design, web design & development, and
+                        mobile app development, broadening our portfolio to meet diverse client needs.</p>
                 </div>
 
                 <h1 class="text-[#0454CB] font-bold text-3xl text-right mt-4">2021</h1>
@@ -118,7 +119,8 @@
                 <div class="mt-24">
                     <h1 class="font-bold text-3xl">Adoption of Cutting-edge Technologies</h1>
                     <p class="mt-3">
-                        Integration of advanced technologies and tools to drive innovation, efficiency, and superior outcomes for our clients.
+                        Integration of advanced technologies and tools to drive innovation, efficiency, and superior
+                        outcomes for our clients.
                     </p>
                 </div>
 
@@ -127,7 +129,8 @@
                 <div class="mt-24">
                     <h1 class="font-bold text-3xl">Launch of Training and Education Programs</h1>
                     <p class="mt-3">
-                        Initiative to empower aspiring digital marketers, designers, developers with specialized skills and knowledge through comprehensive training programs.
+                        Initiative to empower aspiring digital marketers, designers, developers with specialized skills and
+                        knowledge through comprehensive training programs.
                     </p>
                 </div>
             </div>
@@ -150,7 +153,8 @@
                 <div class="mb-10">
                     <h1 class="font-bold text-3xl">Founding of DELS CONSULTING</h1>
                     <p class="mt-3">
-                        Inception of DELS CONSULTING by Faruq Abdulsalam, driven by a vision to revolutionize the digital marketing landscape.
+                        Inception of DELS CONSULTING by Faruq Abdulsalam, driven by a vision to revolutionize the digital
+                        marketing landscape.
                     </p>
                 </div>
 
@@ -159,14 +163,17 @@
                 <div class="mt-24">
                     <h1 class="font-bold text-3xl">Strategic Partnership with Industry Leaders</h1>
                     <p class="mt-3">
-                        Collaboration with renowned industry players to enhance service quality, innovation, and client satisfaction.
+                        Collaboration with renowned industry players to enhance service quality, innovation, and client
+                        satisfaction.
                     </p>
                 </div>
 
-                <h1 class="text-[#0454CB] font-bold text-3xl text-left mt-4">2022</h1> <div class="mt-24">
+                <h1 class="text-[#0454CB] font-bold text-3xl text-left mt-4">2022</h1>
+                <div class="mt-24">
                     <h1 class="font-bold text-3xl">Expansion into International Markets</h1>
                     <p class="mt-3">
-                        Launch of strategic initiatives to extend our reach beyond local boundaries, tapping into global markets and establishing a presence in key regions.
+                        Launch of strategic initiatives to extend our reach beyond local boundaries, tapping into global
+                        markets and establishing a presence in key regions.
                     </p>
                 </div>
 
@@ -174,6 +181,74 @@
 
 
             </div>
+        </div>
+    </section>
+
+    <section class="bg-[#CDDDF5] rounded-bl-3xl py-20 mb-20 md:hidden flex flex-col px-5">
+        <h1 class="text-3xl text-center font-bold"><span class="text-[#0454CB]">Timeline</span> of important events of
+            our company</h1>
+        <p class="text-[#4F4F4F] text-center mt-5">
+            Embark on an immersive journey through the pivotal moments that
+            have shaped the evolution of our company
+        </p>
+
+        <div class="flex flex-col py-10 gap-1">
+            <h1 class="text-[#0454CB] text-2xl font-bold">2020</h1>
+            <h1 class="text-xl font-semibold">Founding of DELS CONSULTING</h1>
+            <p class="text-[#4f4f4f]">Inception of DELS CONSULTING by Faruq Abdulsalam, driven by a vision to revolutionize
+                the digital marketing landscape.</p>
+        </div>
+
+        <div class="flex flex-col py-5 gap-1">
+            <h1 class="text-[#0454CB] text-2xl font-bold">2021</h1>
+            <h1 class="text-xl font-semibold">Expansion of Service Offerings</h1>
+            <p class="text-[#4f4f4f]">Introduction of new services such as UI/UX Design, web design & development, and
+                mobile app development, broadening our portfolio to meet diverse client needs.</p>
+        </div>
+
+        <div class="flex flex-col py-5 gap-1">
+            <h1 class="text-[#0454CB] text-2xl font-bold">2021</h1>
+            <h1 class="text-xl font-semibold">Strategic Partnership with Industry Leaders</h1>
+            <p class="text-[#4f4f4f]">
+                Collaboration with renowned industry players to enhance service quality, innovation, and client
+                satisfaction.
+            </p>
+        </div>
+
+        <div class="flex flex-col py-5 gap-1">
+            <h1 class="text-[#0454CB] text-2xl font-bold">2022</h1>
+            <h1 class="text-xl font-semibold">
+                Adoption of Cutting-edge Technologies
+            </h1>
+            <p class="text-[#4f4f4f]">
+                Integration of advanced technologies and tools to drive innovation, efficiency, and superior outcomes for
+                our clients.
+            </p>
+        </div>
+
+        <div class="flex flex-col py-5 gap-1">
+            <h1 class="text-[#0454CB] text-2xl font-bold">2023</h1>
+            <h1 class="text-xl font-semibold">
+                Expansion into International Markets
+            </h1>
+            <p class="text-[#4f4f4f]">
+                Launch of strategic initiatives to extend our reach beyond local boundaries, tapping into global markets and
+                establishing a presence in key regions.
+            </p>
+        </div>
+
+
+        <div class="flex flex-col py-5 gap-1">
+            <h1 class="text-[#0454CB] text-2xl font-bold">
+                2024
+            </h1>
+            <h1 class="text-xl font-semibold">
+                Launch of Training and Education Programs
+            </h1>
+            <p class="text-[#4f4f4f]">
+                Initiative to empower aspiring digital marketers, designers, developers with specialized skills and
+                knowledge through comprehensive training programs.
+            </p>
         </div>
     </section>
 
