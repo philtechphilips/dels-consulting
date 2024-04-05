@@ -71,7 +71,7 @@ class SendMail extends Controller
             'company' => 'required|string',
             'challenge' => 'required|string',
             'budget' => 'required|string',
-        ]);
+        ]); 
 
         $email = $request->email;
         $firstname = $request->firstname;
