@@ -15,9 +15,14 @@
     <link rel="stylesheet" href="{{ asset('styles/global.css') }}">
     <link rel="icon" type="image/png" href="{{ asset('/images/DELS Main Logo.png') }}" sizes="any">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="{{ asset("css/mod-swiper.css") }}">
-    <link rel="stylesheet" href="{{ asset("css/mod-swiper-3.css") }}">
-
+    <link rel="stylesheet" href="{{ asset('css/mod-swiper.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/mod-swiper-3.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     @vite('resources/css/app.css')
     <!-- Styles -->
 </head>
@@ -76,8 +81,8 @@
     </script>
     {{-- Service Dropdown --}}
 
-      <!-- Accordion Script -->
-      <script>
+    <!-- Accordion Script -->
+    <script>
         const accordions = document.getElementsByClassName("accordion");
 
         for (let i = 0; i < accordions.length; i++) {
@@ -93,6 +98,42 @@
         }
     </script>
     <!-- Accordion script Ends Here -->
+
+
+    {{-- Ajax Send Mail --}}
+    <script>
+        $(document).ready(function() {
+            $("#send-a-message").on("submit", function(event) {
+                event.preventDefault();
+                const button = $("#send-btn");
+                button.prop("disabled", true);
+                button.find('p').text("Sending message..");
+                jQuery.ajax({
+                    url: "/contact",
+                    data: jQuery("#send-a-message").serialize(),
+                    type: "post",
+
+                    success: function(result) {
+                        toastr.success("Message submitted sucessfully!");
+                        button.prop("disabled", false);
+                        button.find('p').text("Send");
+                        $("#send-a-message")[0].reset();
+                    },
+
+                    error: function(xhr, status, error) {
+                        button.prop("disabled", false);
+                        button.find('p').text("Send");
+                        if (error === "Unprocessable Content") {
+                            toastr.error('Invalid field(s)')
+                        } else {
+                            toastr.error("Something went wrong")
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+    {{-- Ajax Send Mail --}}
 
     @yield('script')
 </body>

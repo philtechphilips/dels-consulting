@@ -575,24 +575,9 @@
                 <p class="py-4 text-[#4F4F4F] md:pr-16 text-center md:text-left">You can contact us through the form below
                     and communication channels</p>
                 <div class="bg-[#FCFCFC] p-10 md:mt-16 mt-4 rounded-3xl">
-                    <form class="rounded-3xl gap-20 md:pr-5" action="/contact" method="POST">
+                    <form id="send-a-message" class="rounded-3xl gap-20 md:pr-5" action="/contact" method="POST">
                         @csrf
                         <h1 class="font-bold text-xl">Leave a Message Now!</h1>
-                        @if (session('success'))
-                            <div class="text-white bg-green-600 px-4 py-2 rounded-lg">
-                                {{ session('success') }}
-                            </div>
-                        @endif
-                        @if ($errors->any())
-                            <div class="alert alert-danger">
-                                <ul class="list-disc list-inside">
-                                    @foreach ($errors->all() as $error)
-                                        <li class="text-white bg-red-600 px-4 py-2 rounded-lg">{{ $error }}</li>
-                                    @endforeach
-                                </ul>
-                            </div>
-                        @endif
-
                         <div class="flex flex-col md:flex-row gap-4 mt-4">
                             <input type="text" name="firstname" placeholder="First Name"
                                 class="rounded-xl md:w-1/2 shadow bg-white  border-gray-500 px-4 py-2 outline-none">
@@ -608,12 +593,15 @@
                         </div>
 
                         <div class="flex gap-4 mt-4">
-                            <input placeholder="Message" name="messages"
-                                class="rounded-xl w-full shadow bg-white  border-gray-500 px-4 py-2 outline-none h-16">
+                            <textarea placeholder="Message" name="messages"
+                                class="rounded-xl w-full shadow bg-white  border-gray-500 px-4 py-2 outline-none h-40">
+                            </textarea>
                         </div>
 
-                        <button
-                            class="rounded-xl shadow bg-[#0454CB] text-white w-full mt-4 px-4 py-2 outline-none">Send</button>
+                        <button id="send-btn"
+                            class="rounded-xl shadow cursor-pointer bg-[#0454CB] text-white w-full mt-4 px-4 py-2 outline-none">
+                            <p>Send</p>
+                        </button>
                     </form>
                 </div>
             </div>
