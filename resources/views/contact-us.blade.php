@@ -18,10 +18,10 @@
                     Partner with Us
                 </div>
             </div>
-            <h1 class="font-bold text-xl md:text-3xl text-center" id="leave-message-form-heading">The first step towards
+            <h1 class="font-bold text-xl md:text-3xl text-center" id="send-a-message-heading">The first step towards
                 improving <span class="text-[#0454CB]"> your
                     business </span> – Leave a Message.</h1>
-            <p class="text-center mt-4 text-sm md:text-base" id="leave-message-form-text">Looking to learn more about DELS
+            <p class="text-center mt-4 text-sm md:text-base" id="send-a-message-text">Looking to learn more about DELS
                 CONSULTING, and how we can work
                 together? We’re
                 happy to help you understand what digital solutions we offer specific to your needs, and suggestions on what
@@ -46,23 +46,9 @@
                 and one of our partnership specialists will be in touch as quickly as possible</p>
         </div>
 
-        <form id="leave-message-form" action="/contact" method="POST"
+        <form id="send-a-message" action="/contact" method="POST"
             class="bg-white shadow-xl w-full md:w-[700px] py-5 md:px-5 my-10 rounded-xl ">
             @csrf
-            @if (session('success'))
-                <div class="text-white bg-green-600 px-4 py-2 rounded-lg">
-                    {{ session('success') }}
-                </div>
-            @endif
-            @if ($errors->any())
-                <div class="alert alert-danger">
-                    <ul class="list-disc list-inside">
-                        @foreach ($errors->all() as $error)
-                            <li class="text-white bg-red-600 px-4 py-2 rounded-lg">{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
             <div class="flex flex-col md:flex-row w-full gap-6 py-2 px-5">
                 <input class="md:w-1/2 border rounded-lg px-4 py-2 text-sm outline-none focus:border-gray-400 shadow"
                     type="text" name="firstname" placeholder="First Name" required>
@@ -84,9 +70,10 @@
             </div>
 
             <div class="flex w-full gap-6 py-2 px-5">
-                <button type="submit"
-                    class="bg-[#0063F7] hover:bg-[#0454CB] rounded-lg w-full px-3 py-2 text-white text-lg font-semibold">
-                    Send</button>
+                <button id="send-btn" type="submit"
+                    class="bg-[#0063F7] hover:bg-[#0454CB] cursor-pointer rounded-lg w-full px-3 py-2 text-white text-lg font-semibold">
+                <p>Send</p>
+                </button>
             </div>
         </form>
 
@@ -162,9 +149,10 @@
             </div>
 
             <div class="flex w-full gap-6 py-2 px-5">
-                <button type="submit"
-                    class="bg-[#0063F7] hover:bg-[#0454CB] rounded-lg w-full px-3 py-2 text-white text-lg font-semibold">
-                    Send</button>
+                <button id="send-proposal" type="submit"
+                    class="bg-[#0063F7] cursor-pointer hover:bg-[#0454CB] rounded-lg w-full px-3 py-2 text-white text-lg font-semibold">
+                <p>Send</p>
+                </button>
             </div>
         </form>
 
@@ -209,9 +197,10 @@
             </div>
 
             <div class="flex w-full gap-6 py-2 px-5">
-                <button type="submit"
+                <button id="partnership-request" type="submit"
                     class="bg-[#0063F7] hover:bg-[#0454CB] rounded-lg w-full px-3 py-2 text-white text-lg font-semibold">
-                    Send</button>
+                <p>Send</p>
+                </button>
             </div>
         </form>
     </div>
@@ -235,12 +224,12 @@
                 const filterText = filter.textContent.trim();
                 switch (filterText) {
                     case 'Leave a Message':
-                        document.getElementById('leave-message-form').classList.remove('hidden-active');
+                        document.getElementById('send-a-message').classList.remove('hidden-active');
                         document.getElementById('partner-form').classList.add('hidden-active');
                         document.getElementById('request-proposal-form').classList.add('hidden-active');
 
-                        document.getElementById('leave-message-form-heading').classList.remove('hidden');
-                        document.getElementById('leave-message-form-text').classList.remove('hidden');
+                        document.getElementById('send-a-message-heading').classList.remove('hidden');
+                        document.getElementById('send-a-message-text').classList.remove('hidden');
 
                         document.getElementById('partner-form-heading').classList.add('hidden');
                         document.getElementById('partner-form-text').classList.add('hidden');
@@ -251,11 +240,11 @@
                         break;
                     case 'Request a Proposal':
                         document.getElementById('request-proposal-form').classList.remove('hidden-active');
-                        document.getElementById('leave-message-form').classList.add('hidden-active');
+                        document.getElementById('send-a-message').classList.add('hidden-active');
                         document.getElementById('partner-form').classList.add('hidden-active');
 
-                        document.getElementById('leave-message-form-heading').classList.add('hidden');
-                        document.getElementById('leave-message-form-text').classList.add('hidden');
+                        document.getElementById('send-a-message-heading').classList.add('hidden');
+                        document.getElementById('send-a-message-text').classList.add('hidden');
 
                         document.getElementById('partner-form-heading').classList.add('hidden');
                         document.getElementById('partner-form-text').classList.add('hidden');
@@ -267,10 +256,10 @@
                     case 'Partner with Us':
                         document.getElementById('partner-form').classList.remove('hidden-active');
                         document.getElementById('request-proposal-form').classList.add('hidden-active');
-                        document.getElementById('leave-message-form').classList.add('hidden-active');
+                        document.getElementById('send-a-message').classList.add('hidden-active');
 
-                        document.getElementById('leave-message-form-heading').classList.add('hidden');
-                        document.getElementById('leave-message-form-text').classList.add('hidden');
+                        document.getElementById('send-a-message-heading').classList.add('hidden');
+                        document.getElementById('send-a-message-text').classList.add('hidden');
 
                         document.getElementById('partner-form-heading').classList.remove('hidden');
                         document.getElementById('partner-form-text').classList.remove('hidden');

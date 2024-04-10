@@ -78,7 +78,8 @@
 
         <div class="relative z-50" id="sub1" style="display: none;">
             <img src="{{ asset('images/Group 35.png') }}" alt="">
-            <div class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full rounded-[150px] py-16 px-12">
+            <div
+                class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full md:rounded-[150px] rounded-[120px] py-16 px-12">
                 <h1 class="text-3xl font-bold text-white">Faruq Abdulsalam</h1>
                 <p class="text-white mt-3">Managing Director</p>
                 <a target="_blank" href="https://www.linkedin.com/in/faruq-abdulsalam-31376b103">
@@ -111,7 +112,8 @@
 
         <div class="relative z-50" id="sub2" style="display: none;">
             <img src="{{ asset('images/Group 36.png') }}" alt="">
-            <div class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full rounded-[150px] py-16 px-12">
+            <div
+                class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full md:rounded-[150px] rounded-[120px] py-16 px-12">
                 <h1 class="text-3xl font-bold text-white">Mubarakah Abdulazeez</h1>
                 <p class="text-white mt-3">Project Manager</p>
                 <a target="_blank"
@@ -144,7 +146,8 @@
 
         <div class="relative z-50" id="sub3" style="display: none;">
             <img src="{{ asset('images/Group 37.png') }}" alt="">
-            <div class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full rounded-[150px] py-16 px-12">
+            <div
+                class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full md:rounded-[150px] rounded-[120px] py-16 px-12">
                 <h1 class="text-3xl font-bold text-white">Oladeji Oluwatimileyin</h1>
                 <p class="text-white mt-3">Creative Director</p>
                 <a href="javascript:void()">
@@ -178,7 +181,8 @@
 
         <div class="relative z-50" id="sub4" style="display: none;">
             <img src="{{ asset('images/pelumi.png') }}" alt="">
-            <div class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full rounded-[150px] py-16 px-12">
+            <div
+                class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full md:rounded-[150px] rounded-[120px] py-16 px-12">
                 <h1 class="text-3xl font-bold text-white">Isola Pelumi</h1>
                 <p class="text-white mt-3">Software Engineer</p>
                 <a target="_blank" href="https://ng.linkedin.com/in/isola-pelumi-84661821a">
@@ -211,7 +215,8 @@
 
         <div class="relative z-50" id="sub5" style="display: none;">
             <img src="{{ asset('images/ridwan.png') }}" alt="">
-            <div class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full rounded-[150px] py-16 px-12">
+            <div
+                class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full md:rounded-[150px] rounded-[120px] py-16 px-12">
                 <h1 class="text-3xl font-bold text-white">Ridwan Abdulsalam</h1>
                 <p class="text-white mt-3">Front-End Engineer</p>
                 <a target="_blank" href="https://www.linkedin.com/in/abdulsalam-ridwan-06945b1a0?">
@@ -243,7 +248,8 @@
 
         <div class="relative z-50" id="sub6" style="display: none;">
             <img src="{{ asset('images/ayeni.png') }}" alt="">
-            <div class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full rounded-[150px] py-16 px-12">
+            <div
+                class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full md:rounded-[150px] rounded-[120px] py-16 px-12">
 
                 <h1 class="text-3xl font-bold text-white">Ayeni Samuel O.</h1>
                 <p class="text-white mt-3">Cross-platform Mobile Dev</p>
@@ -279,7 +285,8 @@
 
         <div class="relative z-50" id="sub7" style="display: none;">
             <img src="{{ asset('images/hauwa.png') }}" alt="">
-            <div class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full rounded-[150px] py-16 px-12">
+            <div
+                class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full md:rounded-[150px] rounded-[120px] py-16 px-12">
                 <h1 class="text-3xl font-bold text-white">Abdulazeez Hauwa</h1>
                 <p class="text-white mt-3">Ui, Ux Designer</p>
                 <a target="_blank"
@@ -312,7 +319,8 @@
 
         <div class="relative z-50" id="sub8" style="display: none;">
             <img src="{{ asset('images/edet.png') }}" alt="">
-            <div class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full rounded-[150px] py-16 px-12">
+            <div
+                class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full md:rounded-[150px] rounded-[120px] py-16 px-12">
                 <h1 class="text-3xl font-bold text-white">Victoria Edet</h1>
                 <p class="text-white mt-3">Ui, Ux Designer</p>
                 <a target="_blank"
@@ -345,7 +353,8 @@
         </div>
         <div class="relative z-50" id="sub9" style="display: none;">
             <img src="{{ asset('images/mustapha.png') }}" alt="">
-            <div class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full rounded-[150px] py-16 px-12">
+            <div
+                class="absolute top-0 left-0 bg-[#0454CB] bg-opacity-80 h-full w-full md:rounded-[150px] rounded-[120px] py-16 px-12">
                 <h1 class="text-3xl font-bold text-white">Mustapha Aminah</h1>
                 <p class="text-white mt-3">Operational Manager</p>
                 <a href=""></a>
@@ -574,7 +583,7 @@
                         class="text-[#0454CB]">help</span> you?</h1>
                 <p class="py-4 text-[#4F4F4F] md:pr-16 text-center md:text-left">You can contact us through the form below
                     and communication channels</p>
-                <div class="bg-[#FCFCFC] p-10 md:mt-16 mt-4 rounded-3xl">
+                <div class="bg-[#FCFCFC] p-10 md:mt-8 mt-4 rounded-3xl">
                     <form id="send-a-message" class="rounded-3xl gap-20 md:pr-5" action="/contact" method="POST">
                         @csrf
                         <h1 class="font-bold text-xl">Leave a Message Now!</h1>
@@ -599,7 +608,7 @@
                         </div>
 
                         <button id="send-btn"
-                            class="rounded-xl shadow cursor-pointer bg-[#0454CB] text-white w-full mt-4 px-4 py-2 outline-none">
+                            class="rounded-xl shadow cursor-pointer bg-[#0454cbda] hover:bg-[#0454CB] text-white w-full mt-4 px-4 py-2 outline-none">
                             <p>Send</p>
                         </button>
                     </form>

@@ -133,6 +133,73 @@
             });
         });
     </script>
+
+
+    <script>
+        $(document).ready(function() {
+            $("#request-proposal-form").on("submit", function(event) {
+                event.preventDefault();
+                const button = $("#send-proposal");
+                button.prop("disabled", true);
+                button.find('p').text("Sending proposal...");
+                jQuery.ajax({
+                    url: "/send-proposal",
+                    data: jQuery("#request-proposal-form").serialize(),
+                    type: "post",
+
+                    success: function(result) {
+                        toastr.success("Proposal request submitted sucessfully!");
+                        button.prop("disabled", false);
+                        button.find('p').text("Send");
+                        $("#request-proposal-form")[0].reset();
+                    },
+
+                    error: function(xhr, status, error) {
+                        button.prop("disabled", false);
+                        button.find('p').text("Send");
+                        if (error === "Unprocessable Content") {
+                            toastr.error('Invalid field(s)')
+                        } else {
+                            toastr.error("Something went wrong")
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $("#partner-form").on("submit", function(event) {
+                event.preventDefault();
+                const button = $("#partnership-request");
+                button.prop("disabled", true);
+                button.find('p').text("Sending partnership request...");
+                jQuery.ajax({
+                    url: "/send-parnership-mail",
+                    data: jQuery("#partner-form").serialize(),
+                    type: "post",
+
+                    success: function(result) {
+                        toastr.success("Partnership request submitted sucessfully!");
+                        button.prop("disabled", false);
+                        button.find('p').text("Send");
+                        $("#partner-form")[0].reset();
+                    },
+
+                    error: function(xhr, status, error) {
+                        button.prop("disabled", false);
+                        button.find('p').text("Send");
+                        if (error === "Unprocessable Content") {
+                            toastr.error('Invalid field(s)')
+                        } else {
+                            toastr.error("Something went wrong")
+                        }
+                    }
+                });
+            });
+        });
+    </script>
     {{-- Ajax Send Mail --}}
 
     @yield('script')

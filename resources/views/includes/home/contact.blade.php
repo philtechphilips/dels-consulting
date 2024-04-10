@@ -45,24 +45,9 @@
         </div>
 
 
-        <form class="mt-10  rounded-3xl gap-20 md:pr-5" action="/contact" method="POST">
+        <form id="send-a-message" class="mt-10  rounded-3xl gap-20 md:pr-5" action="/contact" method="POST">
             @csrf
             <h1 class="font-bold text-xl">Leave a Message Now!</h1>
-            @if (session('success'))
-                <div class="text-white bg-green-600 px-4 py-2 rounded-lg">
-                    {{ session('success') }}
-                </div>
-            @endif
-            @if ($errors->any())
-                <div class="alert alert-danger">
-                    <ul class="list-disc list-inside">
-                        @foreach ($errors->all() as $error)
-                            <li class="text-white bg-red-600 px-4 py-2 rounded-lg">{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
-
             <div class="flex flex-col md:flex-row gap-4 mt-4">
                 <input type="text" name="firstname" placeholder="First Name"
                     class="rounded-xl md:w-1/2 shadow bg-white  border-gray-500 px-4 py-2 outline-none">
@@ -82,7 +67,9 @@
                     class="rounded-xl w-full shadow bg-white  border-gray-500 px-4 py-2 outline-none h-16">
             </div>
 
-            <button class="rounded-xl shadow bg-[#0454CB] text-white w-full mt-4 px-4 py-2 outline-none">Send</button>
+            <button id="send-btn" class="rounded-xl shadow bg-[#0454cbda] hover:bg-[#0454CB] text-white w-full mt-4 px-4 py-2 outline-none">
+                <p>Send</p>
+            </button>
         </form>
     </div>
 </section>
