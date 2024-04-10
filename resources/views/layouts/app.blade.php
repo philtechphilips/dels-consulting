@@ -13,11 +13,11 @@
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('styles/global.css') }}">
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/Maryson Logo.png') }}" sizes="any">
+    <link rel="icon" type="image/png" href="{{ asset('/images/DELS Main Logo.png') }}" sizes="any">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="{{ asset("css/mod-swiper.css") }}">
     <link rel="stylesheet" href="{{ asset("css/mod-swiper-3.css") }}">
-    
+
     @vite('resources/css/app.css')
     <!-- Styles -->
 </head>
